@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0px 10px 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+ margin: 10px
+}
+
+#incrementBtn{
+	padding: 2px;
+}
