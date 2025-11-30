@@ -3,8 +3,9 @@ const counterAdd = document.getElementById("counter");
 const btn = document.getElementById("incrementBtn");
 
 function increaseCounter() {
-  alert(counterAdd.textContent);
-  let currentValue = parseInt(counterAdd.textContent, 10)||0; 
+ 
+  let currentValue = parseInt(counterAdd.textContent, 10)||0;
+	 alert(currentValue);
   counterAdd.textContent = currentValue + 1;
 }
 
