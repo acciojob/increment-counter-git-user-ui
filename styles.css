@@ -4,12 +4,7 @@
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-  margin: 10px 0px 10px 0;
-}
-
-#main {
+div {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -18,5 +13,9 @@ h1 {
 }
 
 #incrementBtn{
-	padding: 2px;
+	padding: 4px;
+	
+}
+#incrementBtn:hover{
+	background-color: skyblue;
 }
